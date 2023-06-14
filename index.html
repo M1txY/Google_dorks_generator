@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <label for="keyword">Mot-clé :</label>
+    <input type="text" id="keyword" class="keyword">
+
+    <label for="specificdomain">Domaine spécifique :</label>
+    <input type="text" id="specificdomain" class="specificdomain" value="exemple : balize.fr">
+
+    <label for="filetype">Type de fichier :</label>
+    <input type="text" id="filetype" class="filetype" value="exemple : pdf, txt ou xlsx">
+
+    <label for="excludekeyword">Mot-clé à exclure :</label>
+    <input type="text" id="excludekeyword" class="excludekeyword" >
+
+    <button id="result_btn">Résultat</button>
+
+    <div id="result"></div>
+
+    <script src="js/googledorks.js"></script>
+</body>
+</html>
